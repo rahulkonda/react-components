@@ -1,0 +1,33 @@
+/* Dialog Styles */
+.dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #232323;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.13);
+    width: 80%; /* Adjust width to make content visible */
+    max-width: 976px; /* Limit maximum width */
+  }
+  
+  .dialog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .dialog-header h2 {
+    margin: 0;
+    color: #ffffff; /* Change title color to white */
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #ffffff; /* Change close button color to white */
+  }

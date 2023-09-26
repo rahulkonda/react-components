@@ -6,6 +6,7 @@ import MovieList from './components/MovieList';
 import SearchForm from './components/SearchForm';
 import MovieDetails from './components/MovieDetails';
 import SortControl from './components/SortControl';
+import Module4 from './modules/Module4';
 
 function App() {
   const [movies, setMovies] = useState([]);
@@ -45,13 +46,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <Module4 />
         {/* <Counter value={5}/>
         <br/>
         <SearchForm searchKey={'Hello'} onSearch={onSearch}/>
         <br/>
         
         <GenreSelect onSelect={onGenreSelect} genreList={['COMEDY','HORROR', 'CRIME']} selectedGenre={'CRIME'}/> */}
-        <SortControl currentSelection={sortSelection} onSelectionChange={handleSelectionChange} />
+        {/* <SortControl currentSelection={sortSelection} onSelectionChange={handleSelectionChange} /> */}
 
         {/* <h2>Movies</h2>
       <MovieList movies={movies} /> */}
